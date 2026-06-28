@@ -1,0 +1,12 @@
+# Redrob Hackathon — JDMSCR V2 Dependencies
+
+# Core Data Science
+scikit-learn>=1.2.0
+
+# Deep Semantic Matching (Stage 3)
+sentence-transformers>=2.2.0
+torch>=2.0.0
+
+# Optional: for sandbox / demo app only
+streamlit>=1.35.0
+pandas>=2.0.0

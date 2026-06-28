@@ -1,0 +1,46 @@
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+*.so
+
+# ── Virtual environments ──────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ── IDE ───────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# ── Dataset (large raw files — not committed) ─────────────────────────────────
+dataset/
+*.zip
+*.jsonl
+
+# ── Scratch / working files ───────────────────────────────────────────────────
+analyze.py
+deep_analysis.py
+docs_content.txt
+submission_spec_full.txt
+# Root-level duplicate CSV (the real submission is in submission/)
+/submission.csv
+
+# ── Submission metadata (contains personal info placeholders) ─────────────────
+submission/submission_metadata.yaml
+
+# ── Challenge PDF (idea doc — not part of code submission) ───────────────────
+*.pdf
+
+# ── Notebook checkpoints ──────────────────────────────────────────────────────
+.ipynb_checkpoints/
